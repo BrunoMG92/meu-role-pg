@@ -2,7 +2,7 @@
 
 
 body{
-    font-family: 'Kumbh Sans', Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-principal);
     font-size: 18px;
 }
 
