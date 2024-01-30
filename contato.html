@@ -14,29 +14,37 @@
     <link rel="stylesheet" href="src/css/variables.css">
     <link rel="stylesheet" href="src/css/responsive.css">
     <link rel="stylesheet" href="src/css/style.css">
-
 </head>
 <body>
 
     <header class="header">
-
         <a href="index.html">
             <h1>Meu Rolê PG</h1>
         </a>
-        
+
         <p>O seu rolê certo em PG</p>
-        <span class="material-symbols-outlined">
+        <span class="material-symbols-outlined" onclick="clickmenu()">
             menu
         </span>
-        <nav class="menu">
+        <nav id="itens" class="menu">
             <ul>
-                <li><a href="#">Novidades</a></li>
-                <li><a href="#">Destques</a></li>
-                <li><a href="#">Contato</a></li>
+                <li class="info"><a href="novidades.html" rel="next">Novidades</a></li>
+                <li class="info"><a href="destaques.html" rel="next">Destques</a></li>
+                <li class="info"><a href="contato.html" rel="next">Contato</a></li>
             </ul>
         </nav>
     </header>
-
     
+    <main class="container">
+        <div>
+            <p>Descubra o rolê que é a sua cara</p>
+        </div>
+    </main>
+
+    <header>
+
+    </header>
+    
+    <script src="js/script.js"></script>
 </body>
 </html>
