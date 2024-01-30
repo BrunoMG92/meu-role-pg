@@ -7,9 +7,11 @@ body{
 }
 
 .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    background-color: orange;
-    
+    background-image: linear-gradient(to bottom, #F2C063, #dc9718);
 }
 
 .header h1{
