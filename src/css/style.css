@@ -11,25 +11,25 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(to bottom, #F2C063, #dc9718);
-
+    background-image: linear-gradient(to top, #C17311, #D58F27, #89571A);
 }
 
-.header h1{
+.header h1, .header p{
     color: #fff;
     text-shadow: 2px 2px 2px #0000006c;
 }
 
+
 .material-symbols-outlined{
+    color: #fff;
     margin: 10px 
 }
 
 .material-symbols-outlined:hover{
     cursor: pointer;
-    color: #fff;
-    background-color: #00000069;
+    background-color: #643b099b;
     border-radius: 50%;
-    padding: 5px;
+    padding: 1px;
 }
 
 .menu{
@@ -47,7 +47,7 @@ body{
 }
 
 .info:hover{
-    background-color: #00000069;
+    background-color: #643b099b;
     padding: 3px;
     border-radius: 10px;
     font-weight: 700;
